@@ -3,7 +3,7 @@ Photoshop-Export-Layers-to-Files-Fast
 
 <b>This script allows you to export layers in your Photoshop document as individual files</b> at a speed much faster than the built-in script from Adobe. So far it does not feature all the formats that the built-in version does, but more can be added easily upon request. Feel free to contribute to it and make it even more powerful!
 
-[We accept donations.](https://github.com/jwa107/Photoshop-Export-Layers-to-Files-Fast/wiki)
+[We accept donations.](https://github.com/gbanga/Photoshop-Export-Layers-to-Files-Fast/wiki)
 
 Please, consider donating a modest sum if you enjoy using our script regularly and would like to see more features implemented sooner.
 
@@ -11,7 +11,7 @@ This script was originally built as a response to a [question](http://graphicdes
 
 Make sure to download all files:
 
-<b>[Download as zip](https://github.com/jwa107/Photoshop-Export-Layers-to-Files-Fast/archive/master.zip)</b>
+<b>[Download as zip](https://github.com/gbanga/Photoshop-Export-Layers-to-Files-Fast/archive/master.zip)</b>
 
 Disclaimer: We are not associated with Adobe in any way. For any issues relating to Adobe products or Adobe scripts please contact them directly. We have never had an issue, but please use this script at your own risk. We are not responsible for any lost data or damaged PSDs so always make a back-up.
 
@@ -33,7 +33,7 @@ Features:
 * A selected group can be exported as usual (layer by layer) while everything else is left in tact. (This way variable content can be exported for complex fixed background and foreground.)
 * Can export groups as folder hierarchy. Conflicting folders are renamed.
 
-You can also see [what's coming next](https://github.com/jwa107/Photoshop-Export-Layers-to-Files-Fast/wiki/Feature-Roadmap) and browse some of our [performance test results](https://github.com/jwa107/Photoshop-Export-Layers-to-Files-Fast/wiki/Performance-Test-Results).
+You can also see [what's coming next](https://github.com/gbanga/Photoshop-Export-Layers-to-Files-Fast/wiki/Feature-Roadmap) and browse some of our [performance test results](https://github.com/gbanga/Photoshop-Export-Layers-to-Files-Fast/wiki/Performance-Test-Results).
 
 Requirements:
 -------------------------------
@@ -54,6 +54,7 @@ Mac: /Applications/Adobe Photoshop VERSION/Presets/Scripts/
 
 Version History:
 -------------------------------
+<b>12 March 2018</b> by [Gbanga](https://github.com/gbanga)
 <b>29 April 2016</b> by [Skjorn](https://github.com/skjorn)
 
 * The option "Groups as folders" exports layers in a folder tree (same as groups) instead of a flat list.
