@@ -193,6 +193,15 @@ function main()
 	} catch (e) {
 		alert("Could not change to ../wip folder. Please manually select the destination folder", "Info");
 	}
+		
+	// Gbanga: Change to subfolder with name without extension
+	var fullName = app.activeDocument.name;
+	var finalDotPosition = fullName.lastIndexOf( "." );
+	var pureName = fullName;
+	if ( finalDotPosition > -1 ) {
+  		pureName = fullName.substr(0 , finalDotPosition);
+ 	}
+ 	prefs.filePath.changePath(pureName);
 	
 	prefs.formatArgs = null;
 	prefs.exportLayerTarget = ExportLayerTarget.ALL_LAYERS;
