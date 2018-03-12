@@ -186,6 +186,14 @@ function main()
 	catch (e) {
 		prefs.filePath = Folder.myDocuments;
 	}
+	
+	// Gbanga: switch from source folder to WIP folder by default
+	try {
+		prefs.filePath.changePath("../wip");
+	} catch (e) {
+		alert("Could not change to ../wip folder. Please manually select the destination folder", "Info");
+	}
+	
 	prefs.formatArgs = null;
 	prefs.exportLayerTarget = ExportLayerTarget.ALL_LAYERS;
 	prefs.outputPrefix = "";
@@ -1028,12 +1036,14 @@ function applySettings(dlg, formatOpts)
 	with (dlg.funcArea.content) {
 		// Common settings
 
+		/* Gbanga: don't store destination folder in commmon settings, because it's file/project based
 		var destFolder = new Folder(settings.destination);
 		if (destFolder.exists) {
 			grpDest.txtDest.text = destFolder.fsName;
 			prefs.filePath = destFolder;
 		}
-
+		*/
+		
 		switch (settings.exportLayerTarget) {
 
 		case ExportLayerTarget.VISIBLE_LAYERS:
